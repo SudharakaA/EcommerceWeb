@@ -1,8 +1,8 @@
-# Project README
+# Ecommerce Web
 
 ## Project info
 
-<!-- Add your project info here -->
+A modern e-commerce web application built with React, Vite, TypeScript, shadcn-ui, and Tailwind CSS. This project features product search, filtering, categories, and a clean, responsive UI.
 
 ## How can I edit this code?
 
@@ -18,16 +18,16 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/SudharakaA/EcommerceWeb.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd EcommerceWeb
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
-# (Add your dev server command here)
+npm run dev
 ```
 
 ## What technologies are used for this project?
@@ -42,8 +42,12 @@ This project is built with:
 
 ## How can I deploy this project?
 
-(Add deployment instructions here)
+You can deploy this project using Vercel, Netlify, or any static hosting provider that supports Vite builds. Run:
 
-## Can I connect a custom domain to my project?
+```sh
+npm run build
+```
 
-(Add custom domain instructions here)
+Then upload the contents of the `dist` folder to your hosting provider.
+
+
