@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Phone, Mail, MapPin, MessageCircle, Clock, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -274,7 +273,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="text-gray-600">
-                  <p className="font-medium">Innocart Headquarters</p>
+                  <p className="font-medium">EcommerceWeb Headquarters</p>
                   <p>123 Business District</p>
                   <p>Colombo 03, Sri Lanka</p>
                 </div>
